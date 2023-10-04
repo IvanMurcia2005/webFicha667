@@ -1,0 +1,125 @@
+
+/*https://github.com/IvanMurcia2005/webFicha667.git*/
+/*git@github.com:IvanMurcia2005/webFicha667.git*/
+body{
+    margin: 0px;
+}
+.nav-menu{
+    height: 65px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-menu > div:first-child{
+    width: 25%;
+    justify-content: center;
+    display: flex;
+}
+
+.nav-menu > div:last-child{
+    width:70% ;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu > li{
+    margin: 0% 20px;
+    list-style: none;
+}
+
+.menu > li > a{
+    color: rgb(161, 200, 245);
+    font-weight: bold;
+    
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    
+}
+
+.menu > li > a:hover{
+border-color: rgb(161, 200, 245);
+}
+
+.flex{
+    display: flex;
+}
+
+.info_section{
+    width: 50%;
+    background-color: aliceblue;
+    justify-content: center;
+    color: black;
+    padding-left: 10%;
+}
+.info_section.flex{
+    flex-direction: column;
+}
+ .info_section > h1{
+    color: black;
+    font-size: 3em;
+    margin-bottom: 5px;
+    text-align: center;
+ }
+ .info_section > h6{
+    color: black;
+    align-content: flex-start;
+    margin-top: 5px;
+    text-align: center;
+    
+ }
+
+article.flex > div{
+width: 24%;
+height: 180px;
+border: rgb(9, 108, 221) 1px solid;
+background-color: rgb(136, 170, 221) ;
+justify-content: center;
+display: flex;
+flex-direction: column;
+}
+
+article.flex{
+    justify-content: space-evenly;
+    color: rgb(0, 0, 0);
+}
+
+article.flex > div > h3{
+    padding-left: 60px;
+    margin-bottom: 5px;
+}
+
+aside{
+    color: rgb(8, 8, 8);
+}
+aside > div:first-child > *{
+text-align: center;
+}  
+ aside > div:last-child > div:first-child{
+    width: 50%;
+    border: rgb(33, 130, 248) 1px solid;
+    background-color: rgb(161, 172, 238);
+    justify-content: end;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    padding: 0px;
+ }
+
+ aside div:last-child > div{
+    width: 20%;
+    height: 290px;
+    border: rgb(33, 130, 248) 1px solid;
+    background-color: rgb(161, 172, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 10px;
+ }
+
+ aside > div:last-child > div > p{
+    text-align: center;
+ }

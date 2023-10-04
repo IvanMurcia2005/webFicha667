@@ -1,0 +1,35 @@
+h1{
+    color: aquamarine;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: aquamarine;
+    background-image: url("../img/fondo.img");
+}
+table{
+    background-color: aquamarine;
+    margin-left: 520px;
+    margin-top: 100px;
+}
+
+.colorNuevo{
+    color: chocolate;
+}
+
+.colorCorreccion{
+    color: cornflowerblue;
+}
+
+
+#footerTabla, .colorNuevo{
+    text-shadow: 5px 3px 5px black;
+}
+
+table tfoot tr th{
+    text-shadow: 5px 3px 5px black;
+}
+
+thead.colorNuevo{
+    color: blueviolet;
+}
